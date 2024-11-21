@@ -456,11 +456,28 @@
         const hamMenu = document.querySelector(".ham-menu");
 
         const ul = document.querySelector(".ul");
+        
+
 
         hamMenu.addEventListener("click", () => {
             hamMenu.classList.toggle("active");
             ul.classList.toggle("active");
+
+           
+            
         });
+
+        let li= document.querySelectorAll("li");
+
+        li.forEach(function(x){
+        x.addEventListener("click",function(){
+            hamMenu.classList.toggle("active");
+            ul.classList.toggle("active");
+    })
+})
+
+
+            
 
 
     </script>
