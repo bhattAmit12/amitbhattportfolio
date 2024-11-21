@@ -411,7 +411,7 @@
 
             else {
                 webtab.style.background = '';
-                window.scrollBy(0, -400);
+                window.scrollBy(0, 0);
 
             }
 
@@ -437,10 +437,12 @@
                 graphictab.style.background = 'linear-gradient(151deg, rgb(0 0 0) 0%, rgb(9 31 147) 52%, rgb(5 7 24) 100%)';
                 webtab.style.background = '';
                 clicked = true;
+                window.scrollBy(0, 1000);
 
             }
             else {
                 graphictab.style.background = '';
+                window.scrollBy(0, 0);
             }
 
 
@@ -449,6 +451,7 @@
 
             graphic.classList.toggle("active");
             web.classList.remove("active");
+           
 
         });
 
