@@ -404,19 +404,25 @@
                 webtab.style.background = 'linear-gradient(151deg, rgb(0 0 0) 0%, rgb(9 31 147) 52%, rgb(5 7 24) 100%)';
                 graphictab.style.background = '';
                 clicked1 = true;
+                window.scrollBy(0, 1000);
+                
 
             }
 
             else {
                 webtab.style.background = '';
+                window.scrollBy(0, -400);
 
             }
+
+            
 
             clicked = !clicked;
 
             graphic.classList.remove("active")
             web.classList.toggle("active");
-
+            
+            
 
         });
 
