@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Noto Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+
+.div1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+
+.menu {
+    margin: 0 10px;
+    padding: 0 10px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 2px;
+}
+
+
+
+
+.box {
+    width: 100%;
+    height: 587px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+
+
+}
+
+.box1{
+    width: 100%;
+    height: 587px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    background-image:url("images/error1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+
+}
+
+/* .robot {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+} */
+
+/* .robot img {
+    width: 100%;
+    height: 600px;
+} */
+
+
+
+
+.errortext {
+    width: 40%;
+    height: 300px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+
+
+
+
+}
+
+.errortext a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    header{
+        display: none;
+    }
+
+    /* .div1 {
+        font-size: x-small;
+    }
+
+    .menu {
+        margin: 0 0px;
+        padding: 0 0px;
+    }
+
+    .menu a {
+        margin: 0 0px;
+        padding: 0 2px;
+    } */
+
+    .box {
+        width: 100%;
+        height: 896px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box1 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .errortext {
+        width: 60%;
+        height: 380px;
+        color: white;
+        justify-content: space-evenly;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        margin-bottom: 90px;
+        }
+
+    
+
+  
+
+
+
+
+}

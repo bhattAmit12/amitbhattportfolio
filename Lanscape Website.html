@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Lanscape.css">
+    <link rel="icon" type="jpg" href="1.jpg">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div class="off-screen-menu">
+        <div class="innermenu">
+            <div class="navlogo">
+                <h2>PLASHOE</h2>
+            </div>
+            <div class="text"><a href="men.html">MEN</a></div>
+            <div class="line"></div>
+            <div class="text"><a href="Women.html">WOMEN</a></div>
+            <div class="line"></div>
+            <div class="text">COLLECTION</div>
+            <div class="line"></div>
+            <div class="text">LOOKBOOK</div>
+            <div class="line"></div>
+            <div class="text">SALE</div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--tablet navbar -->
+
+    <nav>
+
+        <div class="navheader">
+
+            <div class="cart">
+                <div class="innercart"><img src="images/99.png"></div>
+            </div>
+
+
+            <div class="navlogo1">
+                <h2>PLASHOE</h2>
+            </div>
+
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- mobile -->
+<header>
+    <div class="header">
+
+        <div class="headerleft">
+            <div class="logo">PLASHOE</div>
+            <div class="text"><a href="men.html">MEN</a></div>
+            <div class="text"><a href="Women.html">WOMEN</a></div>
+            <div class="text">COLLECTION</div>
+            <div class="text">LOOKBOOK</div>
+            <div class="text">SALE</div>
+        </div>
+
+        <div class="headerright">
+            <div class="text1">OUR STORY</div>
+            <div class="text1">CONTACT</div>
+            <div class="icon"><img src="images/99.png"></div>
+            <div class="icon"><img src="images/100.png"></div>
+
+        </div>
+    </div>
+</header>
+
+
+    <div class="main">
+        <div class="innermain"><img src="images/101.jpg">
+            <div class="textdiv">
+                <div class="text2">
+                    <h3>Love the Planet we walk on</h3>
+                </div>
+                <div class="text3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Vel minus voluptate repellat
+                        facilis, ea cupiditate hic a impedit <br>itaque saepe natus ducimus ab numquam.</p>
+                </div>
+                <div class="button">
+                    <button class="btn">SHOP MEN</button>
+                    <button class="btn">SHOP WOMEN</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- mobile text -->
+
+    <div class="mobtextdiv">
+        <div class="mobtext2">
+            <h3>Love the Planet we walk on</h3>
+        </div>
+        <div class="mobtext3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel minus voluptate repellat
+                facilis, ea cupiditate hic a impedit itaque saepe natus ducimus ab numquam.</p>
+        </div>
+        
+            <button class="btn">SHOP MEN</button>
+            <button class="btn">SHOP WOMEN</button>
+        
+    </div>
+
+
+    <script>
+
+
+        const hamMenu = document.querySelector(".ham-menu");
+
+        const offScreenMenu = document.querySelector(".off-screen-menu");
+
+            hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
