@@ -15,7 +15,6 @@
 
 </head>
 
-
 <body>
 
 
@@ -39,15 +38,15 @@
             <h2>food truck</h2>
         </div>
 
-        <div class="navhome" onclick="abc()"><a href="#home">Home</a></div>
+        <div class="navhome"><a href="#home">Home</a></div>
         <div class="navline"></div>
-        <div class="navhome" onclick="abc()"><a href="#menu">Menu</a></div>
+        <div class="navhome"><a href="#menu">Menu</a></div>
         <div class="navline"></div>
-        <div class="navhome" onclick="abc()"><a href="#location">Location & Schedule</a></div>
+        <div class="navhome"><a href="#location">Location & Schedule</a></div>
         <div class="navline"></div>
-        <div class="navhome" onclick="abc()"><a href="#about">about</a></div>
+        <div class="navhome"><a href="#about">about</a></div>
         <div class="navline"></div>
-        <div class="navhome" onclick="abc()"><a href="#contact">Contact</a></div>
+        <div class="navhome"><a href="#contact">Contact</a></div>
     </div>
 
     <!-- navbar -->
@@ -87,7 +86,7 @@
                 <p class="p2">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
             </div>
         </div>
-        <div class="mobileimage2"><img src="images/73.png"></div>
+        <div class="mobileimage2"><img src="images/72.png"></div>
 
         <div class="div2">
 
@@ -556,37 +555,7 @@
 
     </div>
 
-    <script>
-        const hamMenu = document.querySelector(".ham-menu");
-
-        const offScreenMenu = document.querySelector(".off-screen-menu");
-
-
-        hamMenu.addEventListener("click", () => {
-            hamMenu.classList.toggle("active");
-            offScreenMenu.classList.toggle("active");
-        })
-
-
-
-        let navmenu = document.querySelector(".navmenu");
-
-        function abc() {
-            offScreenMenu.classList.remove("active");
-            hamMenu.classList.remove("active");
-        }
-
-    //     let navMenu = document.querySelector(".navmenu");
-    //      navMenu.forEach(function(x){
-    //     x.addEventListener("click",function(){
-    //     offScreenMenu.classList.remove("active");
-    //     })
-    // })
-
-
-
-
-    </script>
+    <script src="Food.js"></script>
 
 
 
